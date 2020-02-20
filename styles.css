@@ -50,3 +50,48 @@ para clase .(nombre de la clase){
 #faceb {
     margin: auto;
 }
+
+.o {
+    display: flex;
+    width: 300px;
+    background-color: white;
+    border: 10px black;
+}
+
+.inputs {
+    display: flex;
+    width: 300px;
+    background-color: white;
+    border: 10px black;
+    flex-direction: column;
+}
+
+.separator-or {
+    margin: 10px auto;
+    color: #999999;
+    font-size: 1rem;
+    position: relative;
+}
+
+.separator-or::before,
+.separator-or::after {
+    content: "";
+    position: absolute;
+    background-color: #999999;
+    width: 105px;
+    height: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.separator-or::before {
+    left: 27px;
+}
+
+.separator-or::after {
+    right: 27px;
+}
+
+#input1,#input2,#input3,#input4 {
+    margin: 5px 25px;
+}
