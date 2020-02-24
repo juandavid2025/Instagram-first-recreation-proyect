@@ -12,6 +12,15 @@ para clase .(nombre de la clase){
 }
 */
 
+.image-div {
+    float: left;
+    margin: 50px 10px 0px 20px;
+}
+
+.menu {
+    float: left;
+}
+
 #imagen_instagram {
     width: 200px;
     margin: 10px 45px;
@@ -96,18 +105,18 @@ para clase .(nombre de la clase){
     content: "";
     position: absolute;
     background-color: #999999;
-    width: 105px;
+    width: 100px;
     height: 1px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .separator-or::before {
-    left: 27px;
+    left: 35px;
 }
 
 .separator-or::after {
-    right: 27px;
+    right: 35px;
 }
 
 #input1,#input2,#input3,#input4 {
@@ -204,7 +213,22 @@ footer .container{
 .footer-nav ul li a{
     color: #003569;
 }
-
-.copyright {
+#copyright {
     color: #999999;
+    padding: auto;
+    font-size: 12px;
+}
+
+.down-part {
+    position: absolute;
+    bottom: 0px;
+}
+
+.top-part, .down-part {
+    margin: auto;
+}
+
+#opt {
+  text-decoration: none;
+  font-size: 12px;
 }
