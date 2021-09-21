@@ -1,4 +1,4 @@
-# Instagram-firstProyectWithHtml
+# Instagram-first-recreation-proyect
 The idea of this project was to introduce html and css and recreate and old version of the signup page of Instagram web site.
 
 ## Reference Image
